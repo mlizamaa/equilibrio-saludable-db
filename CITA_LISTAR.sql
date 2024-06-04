@@ -17,7 +17,8 @@ BEGIN
     UsuarioCreacion,
     UsuarioModificacion,
     IdAgenda,
-    IdPersona
+    IdPersona,
+    codEstado
     FROM [equilibrio-saludable].esdbuser.Cita
     WHERE IdAgenda = @AgendaId
     ORDER BY Fecha ASC;
