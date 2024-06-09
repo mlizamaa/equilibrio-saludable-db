@@ -11,3 +11,4 @@ select * from esdbuser.Persona
 
 insert into esdbuser.Persona (Id, Nombre, Apellidos, NroDocumento,Telefono, Email)
 values (newid(), 'Juan', 'Perez', '12345678-9',9888776766, 'mail@mail.com')
+
